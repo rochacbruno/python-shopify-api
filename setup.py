@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.1.0'
+version = '0.1.2'
 
 REQUIREMENTS = [
     'python-dateutil',
@@ -8,13 +8,13 @@ REQUIREMENTS = [
 ]
 
 setup(
-    name='python-shopify-api',
+    name='python-shopify',
     version=version,
     packages=find_packages(),
-    url='https://github.com/ziplokk1/python-shopify-api',
+    url='https://github.com/rochacbruno/python-shopify-api',
     license='LICENSE.txt',
-    author='Mark Sanders',
-    author_email='sdscdeveloper@gmail.com',
+    author='Bruno Rocha & Mark Sanders',
+    author_email='rochacbruno@gmail.com',
     install_requires=REQUIREMENTS,
     description='Wrapper and parser modules for Shopify\'s API.',
     include_package_data=True
